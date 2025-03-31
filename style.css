@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./img/bg.jpg) no-repeat center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 45px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button {
+  background-color: #635f5f64;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Set a hover effect for the button*/
+button:hover {
+  opacity: 0.8;
+}
+
+/* Set extra style for the cancel button*/
+.container {
+  padding: 16px;
+}
+
+.fontuser {
+  position: relative;
+}
+
+.fontuser i {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  color: gray;
+}
+
+.fontpassword {
+  position: relative;
+}
+
+.fontpassword i {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  color: gray;
+}
+
+.login-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding: 3rem 2rem;
+  background: rgba(218, 216, 216, 0.463);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+.form h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form::before {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.form h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.form .input-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: 1px solid #fff;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+.submit-button {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  background: #dbd8d83c;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+.other-loging-option #or-design {
+  text-align: center;
+  margin: 1.5rem 0;
+  color: #f1b707ec;
+  font-size: 1.2rem;
+}
+.loging-other {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.loging-other .facebook-div,
+.loging-other .google-div {
+  text-decoration: none;
+  color: #fff;
+  background: #dbd8d83c;
+  padding: 0.6rem 1.9rem;
+  border-radius: 6px;
+}
+.facebook-div a,
+.google-div a {
+  text-decoration: none;
+  color: #fff;
+}
